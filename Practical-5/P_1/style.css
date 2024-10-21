@@ -1,0 +1,17 @@
+h1{
+    font-family: serif; 
+    font-style: italic;
+    text-align: center;
+    text-decoration: solid;
+    color :rgb(12, 12, 1);
+}
+p{
+    font-family: monospace;
+    font-size: 20px;
+    
+}
+#one{
+    background-color: cornflowerblue;
+    color: azure;
+
+}
