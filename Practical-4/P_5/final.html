@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Reg. Form</title>
+    <style>
+        form {
+            width: 50%;
+        }
+
+        label {
+            display: inline-block;
+            clear: left;
+            width: 100px;
+            margin: 6px;
+            text-align: left;
+        }
+
+        input {
+            width: 200px;
+            margin: 5px 5px;
+        }
+
+        .special {
+            display:flex;
+            flex-direction:column;
+        }   
+
+        .special div {
+            margin-bottom: 2px;
+        }
+
+        .special input[type="checkbox"] {
+            margin-right: 2px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Student Registration Form</h2>
+    <form>
+        <fieldset>
+            <label>First Name:</label>
+            <input type="text">
+            <br>
+            <label>Last Name:</label>
+            <input type="text">
+            <br>
+            <label>Email:</label>
+            <input type="email">
+            <br>
+            <label>Mobile:</label>
+            <input type="tel">
+            <br>
+            <label>Gender:</label>
+            <label><input type="radio" name="gender" value="male" required>Male</label>
+            <label><input type="radio" name="gender" value="female" required>Female</label>
+            <br>
+            <label>Date of Birth:</label>
+            <input type="date">
+            <br>
+            <label>Address:</label>
+            <input type="text" cols="40" rows="20">
+            <br>
+            <label>City:</label>
+            <input type="text">
+            <br>
+            <label>Area PIN:</label>
+            <input type="number">
+            <br>
+            <label>State:</label>
+            <input type="text">
+            <br>
+            <label>Qualification:</label>
+            <select id="qualification">
+                <option value="">Select Qualification</option>
+                <option value="graduate">Graduate</option>
+                <option value="post-graduate">Post Graduate</option>
+                <option value="phd">PhD</option>
+            </select>
+            <br>
+            <label>Specialization:</label>
+            <div class="special">
+                <div>
+                    <input type="checkbox" id="cs"><label for="cs">Computer Science</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="it"><label for="it">Information Technology</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="ca"><label for="ca">Computer Architecture</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="tc"><label for="tc">Tele Communication</label>
+                </div>
+            </div>
+            <br>
+            <label>Password:</label>
+            <input type="password">
+            <br>
+            <br>
+            <button>Register</button>
+        </fieldset>
+
+    </form>
+</body>
+
+</html>
