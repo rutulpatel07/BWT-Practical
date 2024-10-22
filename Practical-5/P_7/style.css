@@ -1,0 +1,25 @@
+*{
+    font-size: 25px;
+}
+
+.overline{
+    text-decoration: overline blue solid 8px ;
+}
+.linethrough{
+    text-decoration: line-through greenyellow solid ;
+}
+.underline{
+    text-decoration: underline teal solid;
+}
+.overunderline{
+    text-decoration: overline underline yellow solid;
+}
+.solid{
+    text-decoration: underline solid;
+}
+.double{
+    text-decoration: underline double;
+}
+.dott{
+    text-decoration:underline dotted;
+}
