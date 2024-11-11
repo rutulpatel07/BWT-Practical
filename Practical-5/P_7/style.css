@@ -23,3 +23,13 @@
 .dott{
     text-decoration:underline dotted;
 }
+#capital{
+    text-transform: capitalize;
+}
+#uppercase{
+    text-transform: uppercase;
+}
+#lowercase{
+    text-transform: lowercase;
+}
+
