@@ -1,0 +1,65 @@
+/* General Table Styles */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+caption {
+    caption-side: top;
+    font-size: 20px;
+    font-weight: bold;
+    color: purple;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+thead th {
+    color: red;
+    padding: 10px;
+    border: 2px solid black;
+}
+thead th:nth-child(even){
+    background-color: purple;
+}
+
+tbody td {
+    padding: 10px;
+    border: 2px solid black;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: lightgreen;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e8e8a6;
+}
+
+/* Special Column Formatting */
+tbody td:nth-child(4) {
+    background-color: red;
+    color: white;
+}
+
+tbody td:nth-child(6) {
+    background-color: olive;
+    color: white;
+}
+
+
+/* Borders */
+table, th, td {
+    border: 2px solid black;
+}
+
+/* Margins and Padding */
+table {
+    margin-top: 20px;
+}
+
+caption {
+    margin-bottom: 10px;
+}

@@ -1,5 +1,6 @@
 *{
     font-size: 25px;
+    text-align: center;
 }
 
 .overline{
@@ -23,6 +24,28 @@
 .dott{
     text-decoration:underline dotted;
 }
+.length{
+    text-decoration:underline solid 10px;
+}
+.per{
+    text-decoration: underline solid 150%;
+}
+.auto{
+    text-decoration: underline solid auto;
+}
+.letter{
+    letter-spacing: 1em;
+}
+.word{
+    word-spacing: 1em;
+}
+.height{
+    line-height: 4;
+    background-color: aqua;
+}
+.indent{
+    text-indent: 200px;
+}
 #capital{
     text-transform: capitalize;
 }
@@ -31,5 +54,45 @@
 }
 #lowercase{
     text-transform: lowercase;
+}
+.textshadow h1{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+.textshadow h2{
+    color: red;
+    text-shadow: 2px 2px;
+}
+.textshadow h3{
+    color: green;
+    text-shadow: 2px 2px 4px #000000;
+}
+.textshadow h4{
+    text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
+}
+.textshadow h5{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+
+.list ol li{
+    background: #ffe5e5;
+    color: darkred;
+    padding: 5px;
+    margin-left: 35px;
+}
+.list ul li{
+    background: #cce5ff;
+    color: darkblue;
+    margin: 5px;
+}
+.list ol{
+    background: #3399ff;
+    padding: 20px;
+}
+.list ul{
+    background: #3399ff;
+    padding: 20px;
 }
 
