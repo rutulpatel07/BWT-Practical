@@ -49,6 +49,11 @@ tbody td:nth-child(6) {
     color: white;
 }
 
+tbody tr:hover {
+    background-color: yellow;
+    font-weight: bold;
+    cursor: pointer;
+}
 
 /* Borders */
 table, th, td {
