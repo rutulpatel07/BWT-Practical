@@ -26,6 +26,8 @@
                         alert("The difference of the two numbers is: " + (num1 - num2));
                         break;
 
+
+
                     case "*":
                         alert("The product of the two numbers is: " + (num1 * num2));
                         break;
