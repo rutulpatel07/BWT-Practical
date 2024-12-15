@@ -23,7 +23,7 @@ Made By:- <h2>Rutul Patel</h2> Connect with me on
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://twitter.com/rutul_patel5407" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="rutul_patel5407" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/patelrutul07" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="patelrutul07" height="30" width="40" /></a>
-<a href="https://instagram.com/rutulpatel_07" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="rutulpatel_07" height="30" width="40" /></a>
+<a href="https://twitter.com/rutul_patel5407" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="rutul_patel5407" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/patelrutul07" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="patelrutul07" height="30" width="40" /></a>
+<a href="https://instagram.com/rutulpatel_07" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="rutulpatel_07" height="30" width="40" /></a>
 </p>
