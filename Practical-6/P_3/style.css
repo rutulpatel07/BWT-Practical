@@ -6,6 +6,8 @@
 body{
     background: teal;
 }
+
+/* Using CSS Grid Concept for layout */
 .gallery{
     width: 80%;
     margin: 50px auto;
