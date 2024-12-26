@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Type Checker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .form-container {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Number Type Checker</h2>
+        <form id="numberForm">
+            <label for="numberInput">Enter a number:</label><br>
+            <input type="number" id="numberInput" placeholder="Enter a number" required><br><br>
+            <button type="submit">Check</button>
+        </form>
+        <p id="result"></p>
+    </div>
+
+    <script>
+        document.getElementById("numberForm").addEventListener("submit", function(event) {
+            event.preventDefault(); // Prevent form submission
+
+            const number = parseFloat(document.getElementById("numberInput").value);
+            const result = document.getElementById("result");
+
+            if (isNaN(number)) {
+                result.textContent = "Please enter a valid number.";
+                result.style.color = "red";
+                return;
+            }
+
+            if (number > 0) {
+                result.textContent = "The number is positive.";
+                result.style.color = "green";
+            } else if (number < 0) {
+                result.textContent = "The number is negative.";
+                result.style.color = "orange";
+            } else {
+                result.textContent = "The number is zero.";
+                result.style.color = "blue";
+            }
+        });
+    </script>
+</body>
+</html>
