@@ -1,9 +1,8 @@
-<h1 align="center" id="title">BWT Practical 2024</h1>
-
-<p align="center"><img src="https://socialify.git.ci/rutulpatel07/BWT-Practical/image?font=Jost&amp;name=1&amp;owner=1&amp;pattern=Brick%20Wall&amp;theme=Light" alt="project-image"></p>
+<h1 align="center" id="title">BWT Practical 2024 GUNI</h1>
 
 <p id="description">BWT -Practical 2024 Repository contains All Practical Code with detailed comments to understand code in better way.</p>
 
+<h4> Download the reffered Practical List From Here:-  <a href="https://drive.google.com/file/d/1GLNXw0VSpx9m4mBHbhW1OLLSNXxpTUrY/view?usp=sharing">Click Here</a></h4>
   
   
 <h2>💻 Built with</h2>
