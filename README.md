@@ -2,7 +2,7 @@
 
 <p id="description">BWT -Practical 2024 Repository contains All Practical Code with detailed comments to understand code in better way.</p>
 
-<h4> Download the reffered Practical List From Here:-  <a href="https://drive.google.com/file/d/1GLNXw0VSpx9m4mBHbhW1OLLSNXxpTUrY/view?usp=sharing">Click Here</a></h4>
+<h4> Download the reffered Practical List From Here:-  <a href="https://drive.google.com/file/d/1GLNXw0VSpx9m4mBHbhW1OLLSNXxpTUrY/view?usp=sharing" target="_blank">Click Here</a></h4>
   
   
 <h2>💻 Built with</h2>
