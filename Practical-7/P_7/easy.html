@@ -1,0 +1,32 @@
+<!-- Easy Way -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Number Checker</title>
+  </head>
+  <body>
+    <h1>Number Checker</h1>
+    <button onclick="checkNumber()">Check</button>
+
+    <script>
+      function checkNumber() {
+        const number = parseFloat(prompt("Enter a number:"));
+
+        if (isNaN(number)) {
+          result = "Please enter a valid number.";
+        } else if (number > 0) {
+          result = "The number is positive.";
+        } else if (number < 0) {
+          result = "The number is negative.";
+        } else {
+          result = "The number is zero.";
+        }
+
+        alert(result);
+      }
+    </script>
+  </body>
+</html>
